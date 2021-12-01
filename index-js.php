@@ -6,9 +6,12 @@
 </head>
 
 <body>
-    <?php include "components/header.php" ?>
-    <div class="d-flex row-cols-5 flex-wrap w-75 m-auto bg-dark" id="dischiContainer">
+    <div class="bg-dark">
 
+        <?php include "components/header.php" ?>
+        <div class="d-flex row-cols-5 flex-wrap w-75 m-auto bg-dark" id="dischiContainer">
+
+        </div>
     </div>
 
 </body>
