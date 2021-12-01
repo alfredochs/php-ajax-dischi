@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/data/dischi_arr.php";
+require __DIR__ . "/data/dischi_arr.php";
 require __DIR__ . "/utilities/function.php"
 ?>
 <!DOCTYPE html>
@@ -11,8 +11,8 @@ require __DIR__ . "/utilities/function.php"
         <?php include_once "components/header.php" ?>
     </header>
 
-    <main>
-        <div class="d-flex row-cols-5 flex-wrap w-75 m-auto">
+    <main class="bg-dark">
+        <div class="d-flex row-cols-5 flex-wrap w-75 m-auto bg-dark">
             <?php
             foreach ($dischi as $disco) {
                 // $img = $disco["poster"];
